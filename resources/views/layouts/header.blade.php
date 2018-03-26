@@ -18,6 +18,11 @@
                                         @else                                        
                                             <li class="nav-item">
                                                 <a href="{{ route('login') }}" class="nav-link" >Login</a>
+                                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                    <a class="dropdown-item" href="#">Action</a>
+                                                    <a class="dropdown-item" href="#">Another action</a>
+                                                    <a class="dropdown-item" href="#">Something else here</a>
+                                                </div>
                                             </li>                                        
                                             <li class="nav-item">
                                                 <a href="{{ route('register') }}" class="nav-link" >Register</a>
