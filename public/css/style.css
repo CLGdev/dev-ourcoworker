@@ -144,8 +144,11 @@ p {
       border: none;
       background: #252a33; } }
 
-.dropdown-menu {
-  background: #030303; }
+
+.dropdown-menu {  
+  background: #f3f3f3;
+  margin-top: 15px;
+  border-radius: 0px;}
 
 .dropdown-item {
   color: #aaaaaa;
