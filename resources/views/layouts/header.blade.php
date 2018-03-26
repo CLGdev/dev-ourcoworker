@@ -17,7 +17,11 @@
                                             </li>
                                         @else                                        
                                             <li class="nav-item  dropdown">
-                                                <a href="{{ route('login') }}" class="nav-link" >Login</a>
+                                                    <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                            Login
+                                                            <span class="icon-arrow-down"></span>
+                                                          </a>
+                                                {{--  <a href="{{ route('login') }}" class="nav-link" >Login</a>  --}}
                                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                                     <form class="form-horizontal" method="POST" action="{{ route('login') }}">
                                                         {{ csrf_field() }}
