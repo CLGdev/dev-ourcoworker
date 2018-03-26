@@ -10,7 +10,7 @@
     <meta name="description" content="#">
     <meta name="keywords" content="#">
     <!-- Page Title -->
-    <title>Listing &amp; Directory Website Template</title>
+    <title>{{ config('app.name', 'Laravel') }}</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Google Fonts -->
@@ -24,7 +24,7 @@
     <!-- Main CSS -->
     <link rel="stylesheet" href="css/style.css">
     <!-- Styles -->
-    {{--  <link href="{{ asset('css/app.css') }}" rel="stylesheet">  --}}
+    <link href="{{ asset('css/laravel.css') }}" rel="stylesheet">
 </head>
 
 <body>
