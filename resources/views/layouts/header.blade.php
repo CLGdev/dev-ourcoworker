@@ -66,11 +66,11 @@
                                 
                                                         <div class="form-group">
                                                             <div class="col-md-12">
-                                                                <button type="submit" class="btn btn-primary">
+                                                                <button type="submit" class="btn btn-primary col-md-4">
                                                                     Login
                                                                 </button>
                                 
-                                                                <a class="btn btn-link" href="{{ route('password.request') }}">
+                                                                <a class="btn btn-link col-md-8" href="{{ route('password.request') }}">
                                                                     Forgot Your Password?
                                                                 </a>
                                                             </div>
