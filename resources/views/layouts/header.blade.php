@@ -66,12 +66,12 @@
                                 
                                                         <div class="form-group">
                                                             <div class="col-md-12">
-                                                                <button type="submit" class="btn btn-primary col-md-4">
+                                                                <button type="submit" class="btn btn-primary">
                                                                     Login
                                                                 </button>
                                                                 
-                                                                <a href="{{ route('register') }}" class="nav-link" >Register</a>
-                                                                <a class="btn btn-link col-md-8" href="{{ route('password.request') }}">
+                                                                <a href="{{ route('register') }}" class="btn btn-link " >Register</a>
+                                                                <a class="btn btn-link" href="{{ route('password.request') }}">
                                                                     Forgot Your Password?
                                                                 </a>
                                                             </div>
