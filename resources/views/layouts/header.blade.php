@@ -71,9 +71,9 @@
                                                                 </button>
                                                                 
                                                                 <a href="{{ route('register') }}" class="btn btn-link " >Register</a>
-                                                                <a class="btn btn-link" href="{{ route('password.request') }}">
+{{--                                                                  <a class="btn btn-link" href="{{ route('password.request') }}">
                                                                     Forgot Your Password?
-                                                                </a>
+                                                                </a>  --}}
                                                             </div>
                                                         </div>
                                                         <p style="text-align:center;">- OR -</p>
