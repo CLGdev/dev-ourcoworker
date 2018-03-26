@@ -23,7 +23,7 @@
                                                           </a>
                                                 {{--  <a href="{{ route('login') }}" class="nav-link" >Login</a>  --}}
                                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                                    <form class="form-horizontal" method="POST" action="{{ route('login') }}">
+                                                    <form class="form-horizontal login-menu" method="POST" action="{{ route('login') }}">
                                                         {{ csrf_field() }}
                                 
                                                         <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">

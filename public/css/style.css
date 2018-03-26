@@ -975,3 +975,6 @@ footer {
    .form-control{
     border-radius: 0px;
   }
+  .login-menu{
+    width: 250px;
+  }
