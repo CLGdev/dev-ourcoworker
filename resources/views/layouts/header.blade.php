@@ -22,7 +22,7 @@
                                                             <span class="icon-arrow-down"></span>
                                                           </a>
                                                 {{--  <a href="{{ route('login') }}" class="nav-link" >Login</a>  --}}
-                                                <div class="dropdown-menu col-md-12" aria-labelledby="navbarDropdownMenuLink">
+                                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                                     <form class="form-horizontal" method="POST" action="{{ route('login') }}">
                                                         {{ csrf_field() }}
                                 
@@ -75,7 +75,7 @@
                                                                 </a>
                                                             </div>
                                                         </div>
-                                                        <p style="text-align:center;">OR</p>
+                                                        <p style="text-align:center;"> -OR-</p>
                                                         <div class="form-group">
                                                             <div class="col-md-12">
                                                               <a href="{{url('/redirect')}}" class="btn btn-primary">Login with Facebook</a>
