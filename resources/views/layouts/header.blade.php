@@ -54,7 +54,7 @@
                                                             </div>
                                                         </div>
                                 
-                                                        <div class="form-group">
+{{--                                                          <div class="form-group">
                                                             <div class="col-md-12">
                                                                 <div class="checkbox">
                                                                     <label>
@@ -62,20 +62,21 @@
                                                                     </label>
                                                                 </div>
                                                             </div>
-                                                        </div>
+                                                        </div>  --}}
                                 
                                                         <div class="form-group">
                                                             <div class="col-md-12">
                                                                 <button type="submit" class="btn btn-primary col-md-4">
                                                                     Login
                                                                 </button>
-                                
+                                                                
+                                                                <a href="{{ route('register') }}" class="nav-link" >Register</a>
                                                                 <a class="btn btn-link col-md-8" href="{{ route('password.request') }}">
                                                                     Forgot Your Password?
                                                                 </a>
                                                             </div>
                                                         </div>
-                                                        <p style="text-align:center;"> -OR-</p>
+                                                        <p style="text-align:center;">- OR -</p>
                                                         <div class="form-group">
                                                             <div class="col-md-12">
                                                               <a href="{{url('/redirect')}}" class="btn btn-primary">Login with Facebook</a>
